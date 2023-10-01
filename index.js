@@ -23,5 +23,5 @@ const invokeAction = async ({ actions, id, name, email, phone }) => {
 // invokeAction({ actions: "read" });
 // invokeAction({ actions: 'getById', id: 'vza2RIzNGIwutCVCs4mCL' });
 // invokeAction({ actions: 'add', name: 'Mr Gangster', email: 'gangstermekola@gmail.com', phone: '(777) 497-4895' });
-invokeAction({ actions: 'remove', id: 'k5vVyecvRyNyVdL9amEx7' })
+// invokeAction({ actions: 'remove', id: 'yvyS0WXAJ8qZAjhmmUdBs' });
 

@@ -22,7 +22,7 @@ const removeContact = async (contactId) => {
   // ...твой код. Возвращает объект удаленного контакта. Возвращает null, если объект с таким id не найден.
   const contacts = await listContacts();
   const result = contacts.find(contact => contact.id === contactId)
-  if (!result) {
+  if (result === -1) {
     return null;
   }
   const [removedContact] = contacts.splice(result, 1);
