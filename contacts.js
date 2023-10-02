@@ -1,7 +1,7 @@
 const {nanoid} = require('nanoid')
 const fs = require('fs/promises');
 const path = require('path')
-const contactsPath = path.join(__dirname, 'contacts.json');
+const contactsPath = path.join(__dirname, './db/contacts.json');
 
 
 // TODO: задокументировать каждую функцию
